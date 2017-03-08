@@ -1,5 +1,5 @@
 <?php
-namespace KrishnaKodoth\LogView;
+namespace KrishnaKodoth\LogEditor;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
