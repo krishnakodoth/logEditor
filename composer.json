@@ -7,7 +7,12 @@
             "name": "Krishnaprasad K",
             "email": "krishnanova@gmail.com"
         }
-    ],    
-    "minimum-stability": "stable",
-    "require": {}
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+           "KrishnaKodoth\\LogEditor\\":"src/"
+        }
+    },
+    "minimum-stability": "stable",    
 }
