@@ -2,6 +2,7 @@
     "name": "krishnakodoth/log-editor",
     "description": "Laravel view for manage log files",
     "type": "Laravel",
+    "license": "MIT",
     "keywords": ["log", "log-reader", "log-viewer", "logging", "log-editor"],
     "authors": [
         {
