@@ -1,0 +1,13 @@
+{
+    "name": "krishnakodoth/log-view",
+    "description": "Laravel view for manage log files",
+    "type": "Laravel",
+    "authors": [
+        {
+            "name": "Krishnaprasad K",
+            "email": "krishnanova@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
