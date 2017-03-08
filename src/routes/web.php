@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/get/logs','KrishnaKodoth\LogView\LogViewController@getLogEditor');
+Route::get('/get/logs','KrishnaKodoth\LogEditor\LogEditorController@getLogEditor');
