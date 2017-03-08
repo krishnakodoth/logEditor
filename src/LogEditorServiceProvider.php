@@ -1,10 +1,9 @@
 <?php
 
-namespace KrishnaKodoth\LogView;
-
+namespace KrishnaKodoth\LogEditor;
 use Illuminate\Support\ServiceProvider;
 
-class LogViewServiceProvider extends ServiceProvider
+class LogEditorServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -24,7 +23,7 @@ class LogViewServiceProvider extends ServiceProvider
      */
     public function register(){
         //
-		$this->app->make('KrishnaKodoth\LogView\LogViewController');
+		$this->app->make('KrishnaKodoth\LogEditor\LogEditorController');
 		$this->loadViewsFrom(__DIR__.'/views', 'log-view');
     }
 }
