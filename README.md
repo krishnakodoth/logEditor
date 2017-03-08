@@ -11,7 +11,7 @@ Install (Laravel)
 -----------------
 Install via composer
 ```
-composer require krishnakodoth/log-editor
+composer require krishnakodoth/log-editor=dev-master
 ```
 
 Add Service Provider to `config/app.php` in `providers` section
