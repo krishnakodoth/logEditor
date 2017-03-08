@@ -2,13 +2,17 @@
     "name": "krishnakodoth/log-editor",
     "description": "Laravel view for manage log files",
     "type": "Laravel",
+    "keywords": ["log", "log-reader", "log-viewer", "logging", "log-editor"],
     "authors": [
         {
             "name": "Krishnaprasad K",
             "email": "krishnanova@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*|5.*"
+    },
     "autoload": {
         "psr-0": {
            "KrishnaKodoth\\LogEditor\\":"src/"
