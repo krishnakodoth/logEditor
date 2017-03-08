@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Psr\Log\LogLevel;
 use ReflectionClass;
 
-class LogViewController extends Controller{
+class LogEditorController extends Controller{
     protected $request;
 	
 	/**
@@ -60,11 +60,11 @@ class LogViewController extends Controller{
             return $this->redirect($this->request->url());
         }
 
-        $logs = LogViewController::all();
+        $logs = LogEditorController::all();
 		return view('log-view::log', [
             'logs' => $logs,
-            'files' => LogViewController::getFiles(true),
-            'current_file' => LogViewController::getFileName()
+            'files' => LogEditorController::getFiles(true),
+            'current_file' => LogEditorController::getFileName()
         ]);
 		/*
         return app('view')->make('log', [
